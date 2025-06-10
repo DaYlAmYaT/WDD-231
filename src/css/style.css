@@ -271,3 +271,35 @@ svg {
   width: 24px;
   height: 24px;
 }
+
+.intro > h1 {
+  width: 95%;
+  font-size: 30px;
+  justify-self: center;
+}
+
+.intro > p {
+  width: 95%;
+  justify-self: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: auto;
+}
+
+#parkInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.card > img {
+  width: 85%;
+}
+
+.card > a {
+  text-decoration: none;
+  color: black;
+}

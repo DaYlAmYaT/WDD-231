@@ -1,0 +1,111 @@
+Week 1
+--------------------------------------------------------------------------------------------------------------------
+1) HTML
+	To display content. Title, subtitle, paragraph, pictures...
+	Include the CSS and JS files here
+2) CSS
+	To style the page. Where to place the block, the size, the color...
+3) CSS Selection
+	Classes use "." and ids use "#"
+	You can select by the attributes. And if you just want the first few letters of the name of the attributes, do this: [xxx^="xxx"], the last few 	letters: [xxx$="xxx"], contains the letters: [xxx*="xxx"]
+4) JavaScript
+	All the functioning stuff, reactive stuff go here.
+	document.quereySelector is always a good way to select an element in the HTML file. 
+	let vs var
+	let is defined inside the {} and can only be accessed with the {} and var is within the whole function
+####################################################################################################################
+
+Week 2
+------------------------------------------------------------------------------------------------------------------
+Parsing: 	
+	To make the JSON file into something that JS can read, like an array or object. 
+ 	How? JSON.parse(jsonstring)
+Stringifying:	
+	Like parsing but the other way. 
+	How? JSON.stringify(array/object)
+XML: 	
+	Instead of having dictionary-like object, they use tags around the value like this: <age>23</age>
+	Parsing and stringifying for XML string are more difficult. Just use JSON. And most of the data would be in JSON form anyways
+ES Module:
+	File that allows different JS files access the data or function in the module. It can export and other JS file would import.
+####################################################################################################################
+
+Week 3
+------------------------------------------------------------------------------------------------------------------
+
+Fetch: 
+	To make asynchronous network requests. Comes with Promise. It will store an empty object first. Then will re-store the real one once we respond to it. 
+.text() / .json():
+	Ways to respond to the promise. .text returns a string and .json() return a JS object.
+	
+Asynchronous:
+	start the task now but potentially finish later. There is the await keyword to pause the function running until the Promise resolved. 
+
+API:
+	API stands for Application Programming Interface. Allows different software applications to communicate and exchange information with each other.
+####################################################################################################################
+
+Week 5
+------------------------------------------------------------------------------------------------------------------
+
+The most common and important Open Graph tags are:
+
+og:title: The title of your content as it should appear in the social media share.
+	Example: <meta property="og:title" content="My Awesome Blog Post About Cats">
+og:description: A brief description of your content. This should be concise and enticing. 
+	Example: <meta property="og:description" content="Learn all about the fascinating world of felines in this comprehensive guide.">
+og:image: The URL of an image that will be displayed in the social media share. This is arguably the most important tag for engagement. Make sure the image is visually appealing and meets recommended dimensions (e.g., 1200x630 pixels for optimal display).
+	Example: <meta property="og:image" content="https://example.com/images/cat-banner.jpg">
+og:url: The canonical URL of the content being shared. This ensures that all shares point back to the same page, even if there are different ways to reach it. 
+	Example: <meta property="og:url" content="https://example.com/blog/cats-101">
+og:type: The type of content you are sharing (e.g., "website", "article", "book", "video.movie"). This helps platforms categorize and display the content appropriately. 
+	Example: <meta property="og:type" content="article">
+og:site_name: The name of your website.
+	Example: <meta property="og:site_name" content="My Animal Kingdom Blog">
+####################################################################################################################
+
+Week 6 Local Storage
+------------------------------------------------------------------------------------------------------------------
+It stores values with dictionary form which comes with key and values. But the values are always string. To save object type values, use JSON.stringify() to turn it into string first. If you want to re-use it, use JSON.parse() to turn it back into a JSON object.
+
+Methods:
+	localStorage.setItem(key, value): Stores a key-value pair.
+	localStorage.getItem(key): Retrieves the value associated with a given key.
+	localStorage.removeItem(key): Removes a specific key-value pair.
+	localStorage.clear(): Clears all data stored in localStorage for the current origin.
+	localStorage.key(index): Returns the key at a specified index.
+	localStorage.length: Returns the number of stored items.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

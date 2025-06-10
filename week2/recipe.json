@@ -1,0 +1,76 @@
+[
+    {
+        "name": "Chocolate Chip Cookies",
+        "ingredients": [
+            {
+                "ingredient": "butter -softened",
+                "qty": 1,
+                "unit": "pound"
+            },
+            {
+                "ingredient": "brown sugar",
+                "qty": 1.5,
+                "unit": "cup"
+            },
+            {
+                "ingredient": "white sugar",
+                "qty": 1,
+                "unit": "cup"
+            },
+            {
+                "ingredient": "eggs",
+                "qty": 3,
+                "unit": ""
+            },
+            {
+                "ingredient": "vanilla",
+                "qty": 2,
+                "unit": "tea spoon"
+            },
+            {
+                "ingredient": "baking soda",
+                "qty": 1.5,
+                "unit": "tea spoon"
+            },
+            {
+                "ingredient": "salt",
+                "qty": 0.5,
+                "unit": "C"
+            },
+            {
+                "ingredient": "flour",
+                "qty": 5,
+                "unit": "cup"
+            },
+            {
+                "ingredient": "semi-sweet chocolate chips",
+                "qty": 2,
+                "unit": "cup"
+            },
+            {
+                "ingredient": "shredded coconut",
+                "qty": 1.5,
+                "unit": "cup"
+            }
+        ],
+        "instructions": [
+            "Cream the butter and sugar together, then beat in the eggs and vanilla",
+            "Mix in salt, soda and flour",
+            "Add chocolate chips and coconut",
+            "Bake 8-10 minutes at 350 F"
+        ]
+    },
+    {
+        "name": "spaghetti",
+        "ingredients": [
+            {
+                "ingredient": "spaghetti noodles",
+                "qty": 1,
+                "unit": "pound"
+            }
+        ],
+        "instructions": [
+            "Cook the spaghetti in boiling water and serve."
+        ]
+    }
+]
