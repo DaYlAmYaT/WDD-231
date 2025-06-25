@@ -76,22 +76,39 @@ Methods:
 	localStorage.key(index): Returns the key at a specified index.
 	localStorage.length: Returns the number of stored items.
 
+####################################################################################################################
 
+Week 7 Animation & Hide n Seek
+------------------------------------------------------------------------------------------------------------------
 
+Feature			CSS Transitions							CSS Animations
+Nature			Implicitly animates between two states				Explicitly defines multiple states via @keyframes
+Trigger			Requires a trigger (e.g., :hover, class change)			Can start automatically or be triggered
+Complexity		Simple, "from-to" changes					Complex, multi-step sequences
+Control			Limited control over intermediate steps				Fine-grained control with keyframes
+Looping			No native looping						Native looping with animation-iteration-count
+Syntax			Simpler, fewer properties					More complex, requires @keyframes and animation props
+Best For		User interaction feedback, subtle state changes			Continuous movements, intricate visual effects
 
+####################################################################################################################
 
+Week 8 Linter
+------------------------------------------------------------------------------------------------------------------
 
+purposes: 
+- check Programming errors and bugs
+- stylistic errors and inconsistencies
+- suspicious constructs or "code smells"
+- security vulnerabilities
+- best practice violations
 
-
-
-
-
-
-
-
-
-
-
+benefits:
+- Improved code quality
+- Enhanced readability and maintainability
+- Increased developer productivity
+- Enforcement of coding standards
+- Reduced bugs and security risks
+- 
 
 
 
